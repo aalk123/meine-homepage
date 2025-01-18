@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Meine Homepage</h1>
+    <table>
+        <tr>
+            <th>Vorname</th>
+            <td>Martin</td>
+        </tr>
+        <tr>
+            <th>Nachname</th>
+            <td>Haag</td>
+        </tr>
+        <tr>
+            <th>Mein Lieblingsvideo auf YouTube</th>
+            <td>
+                <iframe width="560" height="315" src="https://youtu.be/xW91eaVJLQ0?si=KMe1KqFD0Wo5BT2m" 
+                frameborder="0" allowfullscreen></iframe>
+            </td>
+        </tr>
+        <tr>
+            <th>Mein Lieblingsbild im Internet</th>
+            <td>
+                <img src="images\HHN_Bild.png" alt="Lieblingsbild" width="300" height="200">
+            </td>
+        </tr>
+    </table>
+
+    <h3>Bitte hinterlasse Deinen Vornamen und Nachnamen:</h3>
+    <form>
+        <label for="vorname">Vorname:</label>
+        <input type="text" id="vorname" name="vorname" value="Bill">
+        <br>
+        <label for="nachname">Nachname:</label>
+        <input type="text" id="nachname" name="nachname" value="Gates">
+        <br>
+        <button type="button" id="submit">Absenden</button>
+        <button type="reset">Zurücksetzen</button>
+    </form>
+</body>
+</html>
